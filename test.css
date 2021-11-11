@@ -1,0 +1,35 @@
+.title{
+    
+    text-align: center;
+
+}
+
+.title > h2{
+
+    color:rgb(207, 98, 98);
+    font-size: 30px;
+    margin:30px;
+
+}
+.title > h2::after{
+    content: '';
+    
+    display: block;
+    border-bottom: 1px solid rgb(207, 98, 98);
+    width:50px;
+    margin:20px auto;
+}
+
+.title > p{
+    text-align: center;
+    color: gray;
+}
+
+.img{
+    display:flex;
+    justify-content: space-between;
+
+    width: 900px;
+    margin:80px auto;
+
+}
